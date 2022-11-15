@@ -1,0 +1,121 @@
+import java.util.Scanner;
+import java.lang.String;
+
+
+public class Main {
+    public static void main(String[] args) {
+//        //1:
+//        int n = 0;
+//        while (n<5) {
+//            n++;
+//            System.out.println(n);
+//        }
+
+
+//        //2:
+//        int n = 6;
+//        while (n>1) {
+//            n--;
+//            System.out.println(n);
+//        }
+
+
+//        //3
+//        //Необходимо вывести на экран таблицу умножения на 3 : 3*1=3 , 3*2=6, 3*3=9, 3*4=12, 3*5=15, 3*6=18,
+//        // 3*7=21, 3*8=24 ,3*9=27, 3*10=30:
+
+//        int n = 0;
+//        int result;
+//        while (n < 10) {
+//            n++;
+//            result = 3 * n;
+//
+//            System.out.println("3 * " + n + " = " + result);
+//        }
+
+
+//         //4
+//          ///Напишите программу, где пользователь вводит любое целое положительное число А программа
+//         //суммирует все числа от 1 до введенного пользователем числа.
+//
+//
+//        Scanner num = new Scanner(System.in);
+//        System.out.print("Введите целое положительное число: ");
+//        int n = num.nextInt();
+//        int a = 0;
+//
+//        while (n > 0) {
+//            a = a + n--;
+//        }
+//        System.out.println(a);
+
+
+//        //5
+//        //Необходимо, чтоб программа выводила на экран вот такую последовательность: 7 14 21 28 35 42 49 56 63 70 77 84 91 98
+//
+//        int n = 0;
+//        int result;
+//        while (n < 14) {
+//            n++;
+//            result = 7 * n;
+//
+//            System.out.println(result);
+//        }
+
+
+//        //6
+//        //Необходимо вывести на консоль такую последовательность чисел: 1 2 4 8 16 32 64 128 256 512
+//
+//        int a = 1;
+//        System.out.println(a);
+//        while (a < 512) {
+//
+//            a = a * 2;
+//
+//            System.out.println(a);
+//        }
+
+
+
+
+
+//        //11 Найти все трехзначные числа Амстронга
+//        int n = 99;
+//
+//        while (n < 999) {
+//            n++;
+//            int n1 = n/100;
+//            int n2 = (n/10)%10;
+//            int n3 = n%10;
+//            int armstrong = n1*n1*n1 + n2*n2*n2 + n3*n3*n3;
+//
+//            if (armstrong == n) {
+//               System.out.println(n);
+//            }
+//        }
+//
+
+
+
+
+//        //12
+//        //Дано действительное число а и целое  число n>0. Вычислить a^n
+//
+//        float a = -0.5f;
+//        int n = 5;
+//        float result = a;
+//
+//        while (n > 1) {
+//            n--;
+//            result = result * a;
+//        }
+//        System.out.println(result);
+
+
+
+
+
+
+
+    }
+}
